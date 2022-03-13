@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+<head>
+<!--
+    Carolina Health Home Page
+    Author: Richard D'Anjolell
+    Date: 05/25/21 
+
+    Filename: chs_services.html
+-->
+	<meta charset="utf-8" />
+	<meta name="keywords" content="health, doctor, medical, healthcare" />
+	<meta name="viewport" content="width=device-width, initial-scale-1" />
+	<title>Our Care &amp Services</title>
+	<link href="styles/chs_layout.css" rel="stylesheet" />
+	<link href="styles/chs_styles4.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<a href="chs_home.html">
+			<img src="images/Carolina_Health_logo.gif" alt="Carolina Health Specialists®" />
+		</a>
+		<a href="chs_about.html">
+			<img id="phone" src="images/phone_number.gif" alt="Phone number" />
+		</a>
+		<nav>
+			<ul>
+				<li><a href="chs_home.html">Home</a></li>
+				<li><a href="chs_patients.html">For Patients</a></li>
+				<li><a href="chs_services.html">Our Care &amp Services</a></li>
+				<li><a href="chs_about.html">About Us</a></li>
+			 </ul>
+		</nav>
+	</header>
+	<article>
+		<h1>Our Care & Services</h1>
+		 <video controls>
+		  <source src="video/Services.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video> 
+		<h2>Family Medicine</h2>
+		<p>Carolina Health Specialists offers two convenient locations to assist you.
+		All three offices offer a wide spectrum of family medicine care including 
+		laboratory services, and pulmonary testings.</p>
+		<input type="button" value="See available doctors" onclick="showFamily()"/>
+		<script>
+		function showFamily(){
+			//Declaring Variable
+			var showImg = document.getElementById("family");
+			
+			//If else statement to determine if div should be shown
+			if (showImg.style.display == "none") {
+				showImg.style.display = "block";
+			}
+			else {
+				showImg.style.display = "none";
+			}
+		}
+		</script>
+		<div id="family">
+			<img src="images/Nwanegwo.png" alt="Sheree' Nwanegwo" />
+			<p>Sheree' D. Nwanegwo, MD</p>
+			<img src="images/Prenatt.jpg" alt="William Prenatt" />
+			<p>William E. Prenatt, MD</p>
+			<img src="images/Senn.jpg" alt="Eric Senn" />
+			<p>Eric Senn, NRCME</p>
+			<img src="images/Khalil.png" alt="Sara Khalil" />
+			<p>Sara Khalil, MD</p>
+			<img src="images/Weaver.jpg" alt="Paige Weaver" />
+			<p>Paige A. Weaver, PA-C</p>
+			<img src="images/Wilson.jpg" alt="Ashley Wilson" />
+			<p>Ashley Smith Wilson, MPAS, PA-C</p>
+			<img src="images/Domogauer.jpg" alt="Erica Domogauer" />
+			<p>Erica Domogauer, PA-C</p>
+			<img src="images/Hussey.png" alt="Shannon Hussey" />
+			<p>Shannon R. Hussey, MSN, FNP-C</p>
+		</div>
+		<h2>Rheumatology</h2>
+		<p>Carolina Health Specialists has a dedicated practice that offers a
+		full spectrum of Rheumatology care including management of joint disorders,
+		connective tissue disease, and bone density testing.</p>
+		<input type="button" value="See available doctors" onclick="showRheumatology()"/>
+		<script>
+		function showRheumatology(){
+			//Declaring Variable
+			var showImg = document.getElementById("rheumatology");
+			
+			//If else statement to determine if div should be shown
+			if (showImg.style.display == "none") {
+				showImg.style.display = "block";
+			}
+			else {
+				showImg.style.display = "none";
+			}
+		}
+		</script>
+		<div id="rheumatology">
+			<img src="images/Nayfe.jpg" alt="Rabih Nayfe" />
+			<p>Rabih Nayfe, MD</p>
+			<img src="images/LaRochelle.png" alt="Gerald LaRochelle" />
+			<p>Gerald LaRochelle, MD</p>
+			<img src="images/Lazar.jpg" alt="David Lazar" />
+			<p>David Lazar, MD</p>
+			<img src="images/Heichel.png" alt="Corey Heichel" />
+			<p>Corey Heichel, PA-C</p>
+		</div>
+		<h2>Pulmonology</h2>
+		<p>Carolina Health Specialists has dedicated a practice that offers a full
+		spectrum of pulmonary care including Pulmonary Function Testing/Pulse Oximeter.
+		We also specialize in COPD/Emphysema/Asthma.</p>
+		<input type="button" value="See available doctors" onclick="showPulmonology()"/>
+		<script>
+		function showPulmonology(){
+			//Declaring Variable
+			var showImg = document.getElementById("pulmonology");
+			
+			//If else statement to determine if div should be shown
+			if (showImg.style.display == "none") {
+				showImg.style.display = "block";
+			}
+			else {
+				showImg.style.display = "none";
+			}
+		}
+		</script>
+		<div id="pulmonology">
+			<img src="images/Cohen.jpg" alt="Alan Cohen" />
+			<p>Alan Cohen, DO, FCCP</p>
+			<img src="images/Becker.jpg" alt="Gregory Becker" />
+			<p>Gregory L. Becker, MD</p>
+			<img src="images/Duff.png" alt="Richard Duff" />
+			<p>Richard F. Duff III, MD</p>
+			<img src="images/Bostick.jpg" alt="Adam Bostick" />
+			<p>Adam W. Bostick, MD, Maj, USAF, MC</p>
+		</div>
+		<h2>Endocrinology</h2>
+		<p>Carolina Health Specialist has dedicated a practice that specializes in
+		endocrinology and metabolism disorders, including diabetes, osteoporosis, 
+		disorders of bone and calcium metabolism and disorders of the pituitary, 
+		thyroid, parathyroid and adrenal glands.</p>
+		<input type="button" value="See available doctors" onclick="showEndocrinology()"/>
+		<script>
+		function showEndocrinology(){
+			//Declaring Variable
+			var showImg = document.getElementById("endocrinology");
+			
+			//If else statement to determine if div should be shown
+			if (showImg.style.display == "none") {
+				showImg.style.display = "block";
+			}
+			else {
+				showImg.style.display = "none";
+			}
+		}
+		</script>
+		<div id="endocrinology">
+			<img src="images/LaRochelle.jpg" alt="Anne LaRochelle" />
+			<p>Anne LaRochelle, MD</p>
+			<img src="images/Myers.jpg" alt="Jocelyn Myers" />
+			<p>Jocelyn Myers, MD</p>
+			<img src="images/Currall.jpg" alt="Taylor Currall" />
+			<p>Taylor Currall, PA-C</p>
+		</div>
+		<h2>Nephrology</h2>
+		<p>Carolina Health Specialists has dedicated a practice that offers a full
+		spectrum of Clinical Nephrology care including Dialysis, Renal transplantation,
+		Polycystic Kidney Disease, Hypertension, Mellitus, and Diabetes.</p>
+		<input type="button" value="See available doctors" onclick="showNephrology()"/>
+		<script>
+		function showNephrology(){
+			//Declaring Variable
+			var showImg = document.getElementById("nephrology");
+			
+			//If else statement to determine if div should be shown
+			if (showImg.style.display == "none") {
+				showImg.style.display = "block";
+			}
+			else {
+				showImg.style.display = "none";
+			}
+		}
+		</script>
+		<div id="nephrology">
+			<img id="unknown" src="images/Unknown.jpg" alt="Imran Jawaid" />
+			<p>Imran Ahmad Jawaid, MD</p>
+			<img src="images/DeSalvo.jpg" alt="Debby DeSalvo" />
+			<p>Debby DeSalvo, DO</p>
+			<img src="images/Shergill.png" alt="Karandeep Shergill" />
+			<p>Karandeep Shergill, MD</p>
+		</div>
+		<h2>Interventional Pain Management</h2>
+		<p>Carolina Health Specialists offers interventional pain management at 
+		our Socastee Primary Care location. This specialty is dedicated to a wide 
+		variety of pain management related but not limited to arthritis pain, 
+		cancer pain, fibromyalgia, headaches and migraines, hip, knee, low back 
+		pain, sciatica, shingles, post-trauma related pain, and sports injuries. 
+		Common procedures available include carpal tunnel injections, epidural 
+		steroid injections, occipital nerve blocks, radio frequency ablation, spinal 
+		cord stimulator trials and implants, trigeminal nerve blocks, and trigger point injections.</p>
+		<input type="button" value="See available doctors" onclick="showPain()"/>
+		<script>
+		function showPain(){
+			//Declaring Variable
+			var showImg = document.getElementById("pain");
+			
+			//If else statement to determine if div should be shown
+			if (showImg.style.display == "none") {
+				showImg.style.display = "block";
+			}
+			else {
+				showImg.style.display = "none";
+			}
+		}
+		</script>
+		<div id="pain">
+			<img src="images/Mayhew.jpg" alt="Scott Mayhew" />
+			<p>Scott Mayhew, MD</p>
+			<p id="warning"><b>BY REFERRAL ONLY</b></p>
+		</div>
+		<h2>Internal Medicine</h2>
+		<p>Carolina Health Specialists currently offers an Internal Medicine 
+		practitioner located at our Little River and 82nd Parkway offices.</p>
+		<input type="button" value="See available doctors" onclick="showInternal()"/>
+		<script>
+		function showInternal(){
+			//Declaring Variable
+			var showImg = document.getElementById("internal");
+			
+			//If else statement to determine if div should be shown
+			if (showImg.style.display == "none") {
+				showImg.style.display = "block";
+			}
+			else {
+				showImg.style.display = "none";
+			}
+		}
+		</script>
+		<div id="internal">
+			<img id="unknown" src="images/Unknown.jpg" alt="Saba Salahuddin" />
+			<p>Saba Salahuddin, MD</p>
+			<img id="unknown" src="images/Unknown.jpg" alt="Catherine Poston" />
+			<p>Catherine Poston, PA-C</p>
+		</div>
+		<h2>Cardiology</h2>
+		<p>Staffed by cardiovascular care specialists with more than 40 years 
+		of combined experience, we offer our patients innovative care and 
+		specialize in cardiovascular diseases and disorders.</p>
+		<input type="button" value="See available doctors" onclick="showCardiology()"/>
+		<script>
+		function showCardiology(){
+			//Declaring Variable
+			var showImg = document.getElementById("cardiology");
+			
+			//If else statement to determine if div should be shown
+			if (showImg.style.display == "none") {
+				showImg.style.display = "block";
+			}
+			else {
+				showImg.style.display = "none";
+			}
+		}
+		</script>
+		<div id="cardiology">
+			<img src="images/Trask.jpg" alt="Neil Trask" />
+			<p>Neil W. Trask III, MD, FACC, FACP</p>
+			<img src="images/Swami.jpg" alt="Vaishali Swami" />
+			<p>Vaishali M. Swami, MD, FACC</p>
+			<img src="images/Hardin.jpg" alt="Sanford Hardin" />
+			<p>Sanford J. Hardin II, MHS, PA-C</p>
+		</div>
+		<h2>Clinical Research</h2>
+		<p>Carolina Health Specialists has a full time, multi-specialty research 
+		department that conducts Phase II, III, and IV trials. We are dedicated 
+		to providing patients the opportunity to participate in clinical trials,
+		many of which offer new medications to treat a variety of conditions such
+		as Rheumatoid Arthritis and Diabetes. We are committed to providing up to
+		date and promising new treatments for patients.</p>
+		<h2>Lab Services</h2>
+		<p>Carolina Health Specialists Laboratory is a COLA accredited Clinical 
+		Laboratory Improvement Amendments (CLIA) certified Physician Office 
+		Laboratory. The main laboratory is located in the Socastee Primary Care 
+		Center. Additional collection sites are located at the Little River 
+		Office in Little River, SC and at our 82nd Parkway office located in 
+		Myrtle Beach, SC. Carolina Health Specialists Laboratory testing menu 
+		and on-site services are designed around the needs of the physicians and 
+		patients in the outpatient offices.</p>
+		<h2>Sleep Medicine</h2>
+		<p>Carolina Health Specialists offers Sleep Medicine services at our Pulmonary 
+		Care Center.  Our physicians specialize in the study, diagnosis, and therapy 
+		of sleep disorders and disturbances.</p>
+		<h2>Critical Care Medicine</h2>
+		<p>Carolina Health Specialists currently provides care to 
+		patients being hospitalized in the ICU.</p>
+	</article>
+	<footer>
+		Carolina Health Specialists® - Registered in U.S. 
+		Patent and Trademark Office  ::  Privacy Statement  ::  
+		Terms Of Use
+	</footer>
+</body>
+</html>
