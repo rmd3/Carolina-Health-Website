@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+/*
+
+   Style Sheet for the Layout of the Carolina Health Specialist Home Page
+   Author: Richard D'Anjolell
+   Date: 05/23/21 
+   
+   Filename: chs_home.css
+
+*/
+
+/* Aside Styles */
+
+aside {
+	background-color: rgb(120, 207, 223);
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/* Aside Img Styles */
+
+aside > img {
+	height: 20%;
+	width: 30%;
+}
+
+/* Article Styles */
+
+article {
+	background-color: rgb(173, 224, 255);
+	text-align: center;
+	float: right;
+	width: 65%;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 500.44px;
+}
+
+/* Table Styles */
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.holidays, table.holidays th, table.holidays td{
+	font-size: 1em;
+	border: 3px solid grey;
+}
+
+table.schedule, table.schedule th, table.schedule td{
+	font-size: 1em;
+	border: 3px solid grey;
+}
+
+/* Attention Styles */
+
+section#Attention {
+	border: 5px solid black;
+	border-radius: 25px;;
+	box-shadow: 0px 10px 50px red;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/* Left Column Styles */
+
+section#leftColumn {
+	float: left;
+	overflow: hidden;
+	margin-right: 85px;
+	margin-bottom: 5px;
+}
+
+/* Right Column Styles */
+
+section#rightColumn {
+	overflow: hidden;
+	margin-bottom: 37px;
+}
+
+/* Footer Styles */
+
+footer {
+	text-align: center;
+}
+
+/*============================
+  Mobile Styles: 0px to 480px
+  ============================
+*/
+
+@media only screen and (max-width: 480px) {
+	
+	article img {
+		width: 100%;
+	}
+	
+	article {
+		width: 50%;
+		padding-bottom: 0px
+	}
+	
+	section#leftColumn {
+		float: none;
+		margin: 0px;
+	}
+	
+	aside {
+		width: 42.5%;
+		padding-bottom: 718.15px;
+	}
+}

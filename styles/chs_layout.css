@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+/*
+
+   Style Sheet for the Layout of the Carolina Health Specialist Home Page
+   Author: Richard D'Anjolell
+   Date: 05/23/21 
+   
+   Filename: chs_home.css
+
+*/
+/* HTML Styles */
+
+html {
+	background-color: rgb(215, 215, 215);
+	font-family: Verdana, Geneva, Arial;
+}
+
+/* Body Styles */
+
+body {
+	background-color: rgb(173, 224, 255);
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 960px;
+	min-width: 640px;
+	line-height: 1.5;
+	box-shadow: 0px 10px 50px rgb(51,51,51);
+}
+
+/* Body Header Styles */
+
+body > header {
+	background-color: rgb(192, 230, 241);
+}
+
+body > header > a > img {
+	width: 30%;
+}
+
+img#phone {
+	display: block;
+	width: 15%;
+	position: absolute;
+	right: 320px;
+	top: 15px;
+}
+
+body > header > nav li {
+	width: 25%;
+}
+
+/* Header Styles */
+
+h1 {
+	font-size: 1.7em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+/* Horizontal Navigation Styles */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+	display: block;
+	float: left;
+}
+
+nav a {
+	display: block;
+	float: center;
+	font-size: 1.2em;
+    line-height: 1.8em;
+    text-align: center;
+	padding: 14px 16px;
+    text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 1) 1px -1px 1px;
+	transition: color 1.5s ease-in 0.5s,
+				font-size 2s ease,
+				letter-spacing 2s ease-out,
+				text-shadow 2s cubic-bezier(0.6, 0, 0.8, 0.5);
+}
+
+nav a:link,
+nav a:visited {
+	background-color: rgb(43, 190, 206);
+	color: rgb(0, 0, 0);
+}
+
+nav a:hover,
+nav a:active {
+	background-color: rgb(57, 137, 192);
+	color: rgb(255, 255, 255);
+}
+
+nav a:hover {
+	font-size: 1.75em;
+	letter-spacing: 0.1em;
+	text-shadow: rgba(0, 0, 0, 0.5) 15px -3px 8px;
+}
+
+/* Aside Styles */
+
+aside {
+	background-color: rgb(120, 207, 223);
+	text-align: center;
+}
+
+/* Article Styles */
+
+article {
+	background-color: rgb(173, 224, 255);
+	text-align: center;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: rgb(43, 190, 206);
+	text-align: center;
+}
+
+/*============================
+  Mobile Styles: 0px to 480px
+  ============================
+*/
+
+@media only screen and (max-width: 480px) {
+	
+	img#phone {
+		width: 40%;
+		right: -250px;
+	}
+	
+	nav a {
+		font-size: .75em;
+		text-shadow: none;
+		transition: none;
+	}
+	
+	nav a:hover {
+		font-size: .75em;
+		transition: none;
+		letter-spacing: 0em;
+	}
+}
